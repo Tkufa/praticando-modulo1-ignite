@@ -1,31 +1,6 @@
-# Example app with next-sass
+# Ajudaaa xD
+- Fiz o possível tentando utilizar apenas o conhecimento do curso + que conheço de js.
+# Preciso das seguintes ajudas:  
+[ ] Tirar o seguinte error `react-dom.development.js:88 Warning: Unsupported style property margin-left. Did you mean marginLeft?`  
 
-This example demonstrates how to use Next.js' built-in Global Sass/Scss imports and Component-Level Sass/Scss modules support.
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-next-sass&project-name=with-next-sass&repository-name=with-next-sass)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-next-sass with-next-sass-app
-# or
-yarn create next-app --example with-next-sass with-next-sass-app
-```
-
-Run production build with:
-
-```bash
-npm run build
-npm run start
-# or
-yarn build
-yarn start
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+[ ] Uma maneira mais dinâmica para retirar o conteúdo da página quando apertar o botão, da maneira que fiz, preciso criar uma useState por página.
