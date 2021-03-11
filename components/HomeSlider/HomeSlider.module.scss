@@ -11,7 +11,7 @@
   .home {
     display: flex;
     flex-wrap: wrap;
-    background-color: tomato;
+    background-color: rgb(39, 43, 63);
     min-width: inherit;
     min-height: inherit;
 
@@ -71,8 +71,10 @@
     padding: 0.7rem;
     border-radius: 10px;
     margin: 0 0.5rem;
+    color: white;
   }
   button:focus {
+    color: black;
     display: initial;
     background-color: rgb(138, 195, 241);
   }

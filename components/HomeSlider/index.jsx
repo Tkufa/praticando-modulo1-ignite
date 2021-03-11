@@ -18,22 +18,13 @@ export default function HomeSlider() {
     <>
       <section className={styles.btns}>
         <button onClick={home}>
-          <img
-            src='https://www.flaticon.com/svg/vstatic/svg/61/61426.svg?token=exp=1615448884~hmac=affcc47dbfec100d907f1043ebbb7ddf'
-            alt=''
-          />
+         <h1>HOME</h1>
         </button>
         <button onClick={about}>
-          <img
-            src='https://www.flaticon.com/svg/vstatic/svg/4293/4293726.svg?token=exp=1615449100~hmac=093c767c39eff04ffb7e4dfbf89a999b'
-            alt=''
-          />
+          <h1>ABOUT</h1>
         </button>
         <button onClick={products}>
-          <img
-            src='https://www.flaticon.com/svg/vstatic/svg/1170/1170679.svg?token=exp=1615449221~hmac=1ab8f647a0a0f272ccaf33e7a0c5868f'
-            alt=''
-          />
+          <h1>PRODUTOS</h1>
         </button>
       </section>
 
