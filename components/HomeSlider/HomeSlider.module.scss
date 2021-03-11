@@ -6,6 +6,7 @@
   display: flex;
   transition: 1s;
   margin-left: 0;
+  color: aliceblue;
 
   .home {
     display: flex;
@@ -16,16 +17,16 @@
 
     justify-content: center;
     align-items: center;
-    text-align:center;
-    
-    .homeContent{
-      transition: .1s;
+    text-align: center;
+
+    .homeContent {
+      transition: 0.1s;
     }
 
-    img{
-     height: 200px;
+    img {
+      height: 200px;
     }
-    h2{
+    h2 {
       color: snow;
       margin-bottom: 100px;
     }
@@ -37,6 +38,10 @@
     background-color: teal;
     min-width: inherit;
     min-height: inherit;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
   .products {
@@ -45,6 +50,10 @@
     background-color: seagreen;
     min-width: inherit;
     min-height: inherit;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }
 .btns {
@@ -56,14 +65,18 @@
   bottom: 20px;
 
   button {
-    width: 80px;
-    background-color: #fafafacb;
-    padding: 1rem;
+    --heightBtn: 50px;
+    height: var(--heightBtn);
+    background-color: transparent;
+    padding: 0.7rem;
     border-radius: 10px;
     margin: 0 0.5rem;
   }
   button:focus {
     display: initial;
     background-color: rgb(138, 195, 241);
+  }
+  img {
+    height: calc(var(--heightBtn) - 20px);
   }
 }
